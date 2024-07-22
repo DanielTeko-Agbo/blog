@@ -2,6 +2,12 @@
 ---
 
 body {
-  font-family: "Gill Sans", sans-serif;
-  background-color: #1c0b0b;
+  padding:0px 0 20px 0px;
+  margin: 0px;
+  font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#b8af9b;
+  font-weight: normal;
+  background: #252525;
+  background-attachment: fixed !important;
+  background: linear-gradient(#2a2a29, #1c1c1c);
 }
