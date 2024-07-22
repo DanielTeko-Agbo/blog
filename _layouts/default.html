@@ -16,6 +16,10 @@
     </header>
     <main>
         {{ content }}
+
+        {% for post in site.posts %}
+            {{ post.title }}
+        {% endfor %}
     </main>
     <footer>
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
