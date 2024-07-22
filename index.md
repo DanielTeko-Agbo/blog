@@ -3,7 +3,9 @@ layout: default
 title: Home
 ---
 
-## This is the index page.
+##### THE INTRO
+
+This is the beginning, I am just trying some stuff out.
 
 ```python
 import requests
