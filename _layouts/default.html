@@ -11,13 +11,11 @@
         <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
 
     </header>
+
     <main>
         {{ content }}
-
-        {% for post in site.posts %}
-            * (<a href="{{ post.url | relative_url }}">[{{ post.title }}]</a>) - {{ post.date | date: "%B %d, %Y" }}
-        {% endfor %}
     </main>
+    
     <footer>
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
     </footer>
