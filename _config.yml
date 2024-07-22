@@ -44,5 +44,5 @@ exclude:
 
 show_excerpts: true
 
-remote_theme: just-the-docs
+theme: jekyll-theme-tactile
 color_scheme: dark
