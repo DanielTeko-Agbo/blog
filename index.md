@@ -13,3 +13,7 @@ res = requests.get("https://letsgo.com/here")
 res.status_code
 
 ```
+
+{% raw %}{% for post in site.posts %}
+* [{{ post }}]
+{% endfor %}{% endraw %}
