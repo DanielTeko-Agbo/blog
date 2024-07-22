@@ -9,16 +9,13 @@
 <body>
     <header>
         <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-        <nav>
-            <a href="{{ '/' | relative_url }}">Home</a>
-            <a href="{{ '/blog' | relative_url }}">Blog</a>
-        </nav>
+
     </header>
     <main>
         {{ content }}
 
         {% for post in site.posts %}
-            - (<a href="{{ post.url | relative_url }}">[{{ post.title }}]</a>) - {{ post.date | date: "%B %d, %Y" }}
+            * (<a href="{{ post.url | relative_url }}">[{{ post.title }}]</a>) - {{ post.date | date: "%B %d, %Y" }}
         {% endfor %}
     </main>
     <footer>
