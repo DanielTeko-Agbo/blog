@@ -13,6 +13,8 @@ res = requests.get("https://letsgo.com/here")
 res.status_code
 
 ```
+Number of posts: {% raw %}{{ site.posts.size }}{% endraw %}
+- Current page URL: {% raw %}{{ page.url }}{% endraw %}
 
 {% raw %}{% for post in site.posts %}
   {{ post.title }}
