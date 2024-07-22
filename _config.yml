@@ -44,6 +44,4 @@ exclude:
 
 show_excerpts: true
 
-# theme: jekyll-theme-tactile
-remote_theme: pages-themes/dinky@v0.2.0
-color_scheme: dark
+theme: jekyll-theme-tactile
