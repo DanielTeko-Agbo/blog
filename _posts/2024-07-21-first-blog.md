@@ -1,3 +1,9 @@
+---
+layout: post
+title: "First Blog"
+date: 2024-07-21
+---
+
 __Advertisement :)__
 
 - __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image

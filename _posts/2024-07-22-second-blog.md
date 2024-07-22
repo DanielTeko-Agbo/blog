@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Second Blog"
+date: 2024-07-22
+---
+
 ## Tables
 
 | Option | Description |
