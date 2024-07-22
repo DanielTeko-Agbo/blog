@@ -15,5 +15,5 @@ res.status_code
 ```
 
 {% raw %}{% for post in site.posts %}
-  {{ post }}
+  {{ post.title }}
 {% endfor %}{% endraw %}

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "First Blog"
 date: 2024-07-21
 ---
