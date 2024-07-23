@@ -7,7 +7,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 20px;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -38,7 +38,7 @@ footer {
 .projcard-container {
   /* margin-left: auto;
   margin-right: auto; */
-  width: 900px;
+  width: 1000px;
 }
 .projcard {
   position: relative;
@@ -81,7 +81,7 @@ footer {
 .projcard-img {
   position: absolute;
   height: 300px;
-  width: 400px;
+  width: 300px;
   top: 0;
   left: 0;
   transition: transform 0.2s ease;
