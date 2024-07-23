@@ -3,6 +3,13 @@ body {
     line-height: 1.6;
 }
 
+.decent {
+    margin: 0;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .container,
 .container-fluid,
 .container-xxl,
