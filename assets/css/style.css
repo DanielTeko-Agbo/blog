@@ -4,7 +4,11 @@ body {
 }
 
 .decent {
-    margin: 0 50%;
+    max-width: 800px; /* Adjust this value as needed */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px; /* Adjust for some breathing room */
+    padding-right: 20px;
 }
 
 .container,
