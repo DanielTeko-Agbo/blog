@@ -2,7 +2,7 @@
 layout: default
 title: "Second Blog"
 date: 2024-07-22
-tags: [test, tutorial]
+tags: test tutorial
 image: https://picsum.photos/800/600?image=1041
 ---
 

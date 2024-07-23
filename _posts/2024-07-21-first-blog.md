@@ -2,7 +2,7 @@
 layout: default
 title: "First Blog"
 date: 2024-07-21
-tags: [test, tutorial]
+tags: test tutorial
 image: /assets/images/first_blog.jpg
 ---
 
