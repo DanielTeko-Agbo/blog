@@ -18,7 +18,6 @@ layout: default
   <div class="article mb-4">
     <p class="h4 mb-3">{{ page.list_title | default: "Posts" }}</p>
   </div>
-  <ul class="list-unstyled">
     {%- for post in site.posts -%}
         <div class="projcard-container">
             <div class="projcard projcard-blue">
@@ -41,8 +40,7 @@ layout: default
             </div>
         </div>
     {%- endfor -%}
-  </ul>
-
+    
   {%- endif -%}
     
 </div>
