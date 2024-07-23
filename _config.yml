@@ -44,8 +44,6 @@ exclude:
   - node_modules
   - update_boostrap.sh
 
-show_excerpts: true
-
 theme: jekyll-theme-tactile
 
 markdown: kramdown
@@ -56,3 +54,18 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+#Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
+excerpt_length: 50
+
+# Whether or not to show an excerpt for every blog post in the feed page
+feed_show_excerpt: true
+
+# Whether or not to show a list of tags below each post preview in the feed page
+feed_show_tags: true
+
+# Add a search button to the navbar
+post_search: true
+
+# Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
+edit_page_button: true
