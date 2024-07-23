@@ -6,14 +6,7 @@ tags: test tutorial
 image: /assets/images/first_blog.jpg
 ---
 
-__Advertisement :)__
-
-- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
-  resize in browser.
-- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
-  i18n with plurals support and easy syntax.
-
-You will like those projects!
+In ultricies quam erat. Donec pharetra ultricies diam in iaculis. Cras viverra tincidunt libero eu accumsan. Cras viverra massa scelerisque semper mattis. Aenean mattis, mauris eu auctor molestie, felis nisi malesuada arcu, a tincidunt lorem ex at orci. Fusce pellentesque, turpis quis tincidunt dictum, ligula massa sagittis massa, id maximus nibh urna ac erat. Phasellus non efficitur arcu. Suspendisse lobortis est nec tincidunt aliquam. In quis lobortis sapien. Nulla aliquet mi et dolor condimentum, eget bibendum urna vestibulum. Fusce aliquam arcu tortor, fermentum viverra leo finibus imperdiet.
 
 ---
 
