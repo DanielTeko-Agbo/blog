@@ -15,9 +15,9 @@ layout: default
   </section>
 
   {%- if site.posts.size > 0 -%}
-  <div class="article mb-4">
-    <p class="h4 mb-3">{{ page.list_title | default: "Posts" }}</p>
-  </div>
+    <div class="article mb-4">
+        <p class="h4 mb-3">{{ page.list_title | default: "Posts" }}</p>
+    </div>
     {%- for post in site.posts -%}
         <div class="projcard-container">
             <div class="projcard projcard-blue">
@@ -40,7 +40,7 @@ layout: default
             </div>
         </div>
     {%- endfor -%}
-    
+
   {%- endif -%}
     
 </div>
