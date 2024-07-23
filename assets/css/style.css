@@ -3,6 +3,11 @@ body {
     line-height: 1.6;
 }
 
+.decent {
+    padding: 20px;
+    margin: 20px;
+}
+
 .container,
 .container-fluid,
 .container-xxl,
