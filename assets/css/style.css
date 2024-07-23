@@ -3,14 +3,6 @@ body {
     line-height: 1.6;
 }
 
-.decent {
-    max-width: 800px; /* Adjust this value as needed */
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: auto; /* Adjust for some breathing room */
-    padding-right: auto;
-}
-
 .container,
 .container-fluid,
 .container-xxl,
