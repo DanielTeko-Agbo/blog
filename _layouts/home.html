@@ -29,7 +29,7 @@ layout: default
                         <div class="projcard-subtitle">{%- assign date_format = "%b %-d, %Y" -%}{{ post.date | date: date_format }}</div>
                         <div class="projcard-bar"></div>
                         <!-- <div class="projcard-description">{{ post.excerpt }}</div> -->
-                        {{ page.tags }}
+                        {{ site.tags }} {{ site.categories }} {{ site.excerpts }}
                         <div class="projcard-tagbox">
                             {% for tag in page.tags %}
                                 <span class="projcard-tag">{{tag}}</span>
