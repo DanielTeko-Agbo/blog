@@ -28,7 +28,7 @@ layout: default
                         <div class="projcard-title">{{ post.title | escape }}</div>
                         <div class="projcard-subtitle">{%- assign date_format = "%b %-d, %Y" -%}{{ post.date | date: date_format }}</div>
                         <div class="projcard-bar"></div>
-                        <div class="projcard-description">{{ post.excerpt }}</div>
+                        <div class="projcard-description">{{ post.excerpt | strip }}</div>
                         <!-- {{ site.tags }} {{ site.categories }} {{ post.excerpt }} {{ post.tags }} {{ post.tag }} -->
                         <div class="projcard-tagbox">
                             {% for tag in post.tags %}
