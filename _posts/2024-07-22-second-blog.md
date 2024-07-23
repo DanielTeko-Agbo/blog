@@ -2,6 +2,7 @@
 layout: default
 title: "Second Blog"
 date: 2024-07-22
+tags: [test, tutorial]
 ---
 
 ## Tables

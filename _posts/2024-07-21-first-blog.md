@@ -2,6 +2,7 @@
 layout: default
 title: "First Blog"
 date: 2024-07-21
+tags: [test, tutorial]
 ---
 
 __Advertisement :)__
