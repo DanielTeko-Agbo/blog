@@ -28,11 +28,11 @@ layout: default
                         <div class="projcard-title">{{ post.title | escape }}</div>
                         <span style="align-items: center;">
                             <div class="projcard-subtitle">{%- assign date_format = "%b %-d, %Y" -%}{{ post.date | date: date_format }}</div>
-                            <div class="projcard-tagbox">
+                            <!-- <div class="projcard-tagbox">
                                 {% for tag in post.tags %}
                                     <span class="projcard-tag">{{tag}}</span>
                                 {% endfor %}
-                            </div>
+                            </div> -->
                         </span>
                         <div class="projcard-bar"></div>
                         <div class="projcard-description">{{ post.excerpt | truncatewords: 30 | strip }}</div>
