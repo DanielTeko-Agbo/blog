@@ -17,9 +17,8 @@ header {
     margin-bottom: 2rem;
 }
 
-nav a {
-    margin-right: 10px;
-    align-content: right;
+nav {
+    margin-left: auto;
 }
 
 footer {
