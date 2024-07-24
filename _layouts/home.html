@@ -15,9 +15,6 @@ layout: default
   </section>
 
   {%- if site.posts.size > 0 -%}
-    <div class="article mt-4 mb-4">
-        <h4 class="center">{{ page.list_title | default: "Posts" }}</h4>
-    </div>
     {%- for post in site.posts -%}
         <div class="projcard-container">
             <div class="projcard projcard-blue">
