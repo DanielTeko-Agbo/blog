@@ -176,7 +176,7 @@ footer {
   height: 5px;
   margin: 1px 0;
   border-radius: 5px;
-  background-color: #424242;
+  background-color: rgb(175, 176, 177);
   transition: width 0.2s ease;
 }
 .projcard-blue .projcard-bar { background-color: #0088FF; }
@@ -206,7 +206,7 @@ footer {
 .projcard-description {
   z-index: 10;
   font-size: 15px;
-  color: #424242;
+  color: rgb(175, 176, 177);
   height: 125px;
   overflow: hidden;
   text-overflow: ellipsis;
