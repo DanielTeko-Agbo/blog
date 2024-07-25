@@ -48,12 +48,14 @@ header {
 nav a {
     padding: 0 20px;
     font-size: 1rem;
+    color: #cccccc;
 }
 
 footer {
     margin-top: 2rem;
     text-align: center;
     background-color: rgb(68, 69, 70);
+    color: #cccccc;
 }
 
 /* .projcard-container {
@@ -144,7 +146,7 @@ footer {
   position: absolute;
   display: block;
   background: #ff0000bb;
-  background: #cccccc;
+  background: rgb(68, 69, 70);
   top: -20%;
   left: -55px;
   height: 140%;
