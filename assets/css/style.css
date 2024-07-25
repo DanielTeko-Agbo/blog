@@ -10,11 +10,13 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     justify-content: center;
+    color: #cccccc;
 }
 
 .center {
     text-align: center;
     font-size: 1.7em;
+    color: #cccccc;
 }
 
 .content {
@@ -34,12 +36,13 @@ a:visited {
 }
 
 header {
-    background-color: #f4f4f4;
+    background-color: rgb(68, 69, 70);
     padding: 1rem;
     margin-bottom: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #717070;
 }
 
 nav a {
@@ -50,7 +53,7 @@ nav a {
 footer {
     margin-top: 2rem;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: rgb(68, 69, 70);
 }
 
 /* .projcard-container {
@@ -141,7 +144,7 @@ footer {
   position: absolute;
   display: block;
   background: #ff0000bb;
-  background: #fff;
+  background: #cccccc;
   top: -20%;
   left: -55px;
   height: 140%;
