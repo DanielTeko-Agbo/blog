@@ -7,18 +7,18 @@
 <body>
 	<section>
 		<header>
-			<a href="#" class="logo">Heroes</a>
+			<a href="{{ '/' | relative_url }}" class="logo">{{ site.title }}</a>
 			<div class="toggle" onclick="toggleMenu();"></div>
 			<ul class="navigation">
-				<li><a href="#" style="--i:1;">Home</a></li>
-				<li><a href="#" style="--i:2;">Characters</a></li>
-				<li><a href="#" style="--i:3;">Movies</a></li>
+				<li><a href="{{ '/' | relative_url }}" style="--i:1;">Home</a></li>
+				<li><a href="{{ '/about' | relative_url }}" style="--i:2;">About</a></li>
+				<!-- <li><a href="#" style="--i:3;">Movies</a></li>
 				<li><a href="#" style="--i:4;">Games</a></li>
-				<li><a href="#" style="--i:5;">More</a></li>
+				<li><a href="#" style="--i:5;">More</a></li> -->
 			</ul>
 		</header>
 		<div class="container">
-			
+			{{content}}
 		</div>
 		<div class="footer">
 			<ul class="sci">
