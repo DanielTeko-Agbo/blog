@@ -10,32 +10,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="container">
-    <div class="row">
+<body>
+    <div>
         <header>
-            <h1 class="logo"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-            <!-- <nav>
+            <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+            <nav>
                 <a href="{{ '/' | relative_url }}">Home</a>
                 <a href="{{ '/about' | relative_url }}">About</a>
-            </nav> -->
-            <input type="checkbox" id="click">
-			<label for="click" class="menu-btn">
-				<i class="fas fa-bars"></i>
-			</label>
-		
-			<ul class="nav__links">
-				<li><a class="active" href="{{ '/' | relative_url }}">Home</a></li>
-				<li><a href="{{ '/about' | relative_url }}">About</a></li>
-				<!-- <li><a href="#">Element-2</a></li>
-				<li><a href="#">Element-3</a></li>
-				<li><a href="#">About</a></li> -->
-			</ul>
+            </nav>
        </header>
 
         <main>
-            <h1 class="center">{{ page.title }}</h1>
+            <h1>{{ page.title }}</h1>
         
-            <div class="decent" style="font-size: 1.3em;">{{ content }}</div>
+            <div style="font-size: 1.3em;">{{ content }}</div>
         </main>
 
         <footer>
