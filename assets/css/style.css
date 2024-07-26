@@ -96,69 +96,6 @@ section header .toggle.active
 	animation: slideRight 0.5s ease-in-out forwards;
 	animation-delay: calc(0.2s * var(--i));
 }
-section .container
-{
-	position: absolute;
-	display: flex;
-	height: calc(100% - 200px);
-	width: calc(100% - 200px);
-	z-index: 100;
-}
-section .container .box
-{
-	position: relative;
-	width: 25%;
-	height: 100%;
-	background: #fff;
-	overflow: hidden;
-	border-right: 10px solid #fff;
-}
-section .container .box:last-child
-{
-	border-right: none;
-}
-section .container .box .imgBx
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.9);
-	transition: 0.5s;
-	opacity: 0;
-	animation: slideRight 0.5s ease-in-out forwards;
-	animation-delay: calc(0.2s * var(--i));
-}
-section .container .box .imgBx.active
-{
-	position: fixed;
-	top: 100px;
-	left: 100px;
-	width: calc(100% - 200px);
-	height: calc(100% - 200px);
-	z-index: 1000;
-	filter: grayscale(0);
-	opacity: 1;
-}
-section .container .box .imgBx img
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transition: 0.5s;
-}
-section .container .box .imgBx:hover img
-{
-	transform: scale(1.2);
-}
-section .container .box .imgBx.active:hover img
-{
-	transform: scale(1);
-}
 .footer
 {
 	position: absolute;
@@ -264,30 +201,6 @@ section .container .box .imgBx.active:hover img
 	    display: inline-block;
 	    font-weight: 600;
 	    text-transform: uppercase;
-	}
-	section .container
-	{
-		flex-direction: column;
-		flex-wrap: wrap;
-    	width: calc(100% - 30px);
-    	height: calc(100% - 170px);
-	}
-	section .container .box
-	{
-		width: 100%;
-		height: 25%;
-		border-bottom: 10px solid #fff;
-	}
-	section .container .box .imgBx.active
-	{
-	    top: 70px;
-	    left: 20px;
-	    width: calc(100% - 40px);
-	    height: calc(100% - 160px);
-	}
-	section .container .box:last-child
-	{
-		border-right: 10px solid #fff;
 	}
 	.footer
 	{
