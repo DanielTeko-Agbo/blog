@@ -1,46 +1,66 @@
-<!DOCTYPE html>
-<!-- codingmanish - www.codingmanish.in -->
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ page.title }} - {{ site.title }}</title>
-        <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    </head>
-  
-    <body>
+<!doctype html>
+<html>
+<head>
+    <title>Heroes | Responsive Movie Landing Page Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section>
+		<header>
+			<a href="#" class="logo">Heroes</a>
+			<div class="toggle" onclick="toggleMenu();"></div>
+			<ul class="navigation">
+				<li><a href="#" style="--i:1;">Home</a></li>
+				<li><a href="#" style="--i:2;">Characters</a></li>
+				<li><a href="#" style="--i:3;">Movies</a></li>
+				<li><a href="#" style="--i:4;">Games</a></li>
+				<li><a href="#" style="--i:5;">More</a></li>
+			</ul>
+		</header>
+		<div class="container">
+			<div class="box" style="--i:3;">
+				<div class="imgBx">
+					<img src="img1.jpg">
+				</div>
+			</div>
+			<div class="box" style="--i:4;">
+				<div class="imgBx">
+					<img src="img2.jpg">
+				</div>
+			</div>
+			<div class="box" style="--i:5;">
+				<div class="imgBx">
+					<img src="img3.jpg">
+				</div>
+			</div>
+			<div class="box" style="--i:6;">
+				<div class="imgBx">
+					<img src="img4.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<ul class="sci">
+				<li><a href="#" style="--i:9">Facebook</a></li>
+				<li><a href="#" style="--i:8">Twitter</a></li>
+				<li><a href="#" style="--i:7">Instagram</a></li>
+			</ul>
+			<p class="copyrightText">©Online Tutorials. 2020</p>
+		</div>
+	</section>
+	<script>
+		let imgBx = document.querySelectorAll('.imgBx');
+		imgBx.forEach(popup => popup.addEventListener('click', () =>{
+			popup.classList.toggle('active')
+		}))
 
-        <header>
-            <nav class="navbar">
-            <h2 class="logo"><a href="#">Traveling Tent</a></h2>
-            <input type="checkbox" id="menu-toggler">
-            <label for="menu-toggler" id="hamburger-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
-                <path d="M0 0h24v24H0z" fill="none"/>
-                <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z"/>
-                </svg>
-            </label>
-            <ul class="all-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-            </nav>
-        </header>
-
-
-        <footer>
-            <div>
-            <span>Copyright © 2023 All Rights Reserved</span>
-            <span class="link">
-                <a href="#">Home</a>
-                <a href="#contact">Contact</a>
-            </span>
-            </div>
-        </footer>
-
-    </body>
+		function toggleMenu(){
+	      var menuToggle = document.querySelector('.toggle');
+	      var navigation = document.querySelector('.navigation');
+	      menuToggle.classList.toggle('active');
+	      navigation.classList.toggle('active');
+	    }
+	</script>
+</body>
 </html>
+
