@@ -6,19 +6,47 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="shortcut icon" href="{{ '/assets/images/try.ico' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <!-- <link rel="stylesheet" href="{{ '/assets/css/bootstrap.css' | relative_url }}"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <div>
         <header>
-            <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
             <nav>
-                <a href="{{ '/' | relative_url }}">Home</a>
-                <a href="{{ '/about' | relative_url }}">About</a>
+                <div>
+                    <div>
+                        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+                    </div>
+                    <ul>
+                        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                        <li><a href="{{ '/about' | relative_url }}">About</a></li>
+                        <!-- <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Feedback</a></li> -->
+                    </ul>
+                </div>
             </nav>
-       </header>
+        </header>
+
+        <header>
+            <nav class="navbar">
+                <h2 class="logo"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h2>
+                <input type="checkbox" id="menu-toggler">
+                <label for="menu-toggler" id="hamburger-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </label>
+                <ul class="all-links">
+                    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                    <li><a href="{{ '/about' | relative_url }}">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li> -->
+                </ul>
+            </nav>
+        </header>
+
 
         <main>
             <h1>{{ page.title }}</h1>
