@@ -96,11 +96,14 @@ section header .toggle.active
 	animation: slideRight 0.5s ease-in-out forwards;
 	animation-delay: calc(0.2s * var(--i));
 }
-section .container
-{
-	display: flex;
-    width: 100%;
-	padding: 20px 100px;
+.container
+ {
+    margin: 0;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+    color: #cccccc;
 }
 .footer
 {
