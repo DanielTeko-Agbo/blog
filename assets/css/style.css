@@ -45,7 +45,7 @@ section header .toggle
 	position: relative;
 	width: 30px;
 	height: 30px;
-	background: url(menu.png);
+	background: url(/assets/images/menu.png);
 	background-size: 30px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -57,7 +57,7 @@ section header .toggle
 }
 section header .toggle.active
 {
-	background: url(close.png);
+	background: url(/assets/images/close.png);
 	background-size: 25px;
 	background-position: center;
 	background-repeat: no-repeat;
