@@ -18,7 +18,39 @@
 			</ul>
 		</header>
 		<div class="container">
+
+            {% if page.catalog %}
+                <div>
+                    <div class="side-catalog">
+                        <hr class="hidden-sm hidden-xs">
+                        <h5>
+                            <a class="catalog-toggle" href="#">CATALOG</a>
+                        </h5>
+                        <ul class="catalog-body"></ul>
+                    </div>
+                </div>
+                {{ page.catalog }}
+            {% endif %}
+
 			{{content}}
+
+
+            {% if page.previous.url %}
+                <li>
+                    <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}">
+                    Previous<br>
+                    <span>{{page.previous.title}}</span>
+                    </a>
+                </li>
+            {% endif %}
+            {% if page.next.url %}
+                <li>
+                    <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}">
+                    Next<br>
+                    <span>{{page.next.title}}</span>
+                    </a>
+                </li>
+            {% endif %}
 		</div>
 		<div class="footer">
 			<ul class="sci">

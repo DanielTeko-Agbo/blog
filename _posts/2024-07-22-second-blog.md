@@ -4,6 +4,7 @@ title: "Second Blog"
 date: 2024-07-22
 tags: test tutorial
 image: https://picsum.photos/800/600?image=1041
+catalog: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in purus venenatis velit sollicitudin placerat et at turpis. Aenean quam ex, aliquet nec placerat ac, ultrices in ligula. Aliquam mattis porttitor augue, sed ultrices felis pellentesque sed. Phasellus quis molestie risus, at faucibus leo. Donec ac nisl ac turpis hendrerit fermentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque erat massa, fringilla eget euismod eu, rhoncus finibus ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque lacinia luctus massa, tincidunt vulputate lorem blandit sed.

@@ -4,6 +4,7 @@ title: "First Blog"
 date: 2024-07-21
 tags: test tutorial
 image: /assets/images/first_blog.jpg
+catolog: true
 ---
 
 In ultricies quam erat. Donec pharetra ultricies diam in iaculis. Cras viverra tincidunt libero eu accumsan. Cras viverra massa scelerisque semper mattis. Aenean mattis, mauris eu auctor molestie, felis nisi malesuada arcu, a tincidunt lorem ex at orci. Fusce pellentesque, turpis quis tincidunt dictum, ligula massa sagittis massa, id maximus nibh urna ac erat. Phasellus non efficitur arcu. Suspendisse lobortis est nec tincidunt aliquam. In quis lobortis sapien. Nulla aliquet mi et dolor condimentum, eget bibendum urna vestibulum. Fusce aliquam arcu tortor, fermentum viverra leo finibus imperdiet.
