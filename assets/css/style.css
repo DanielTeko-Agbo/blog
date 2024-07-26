@@ -96,6 +96,11 @@ section header .toggle.active
 	animation: slideRight 0.5s ease-in-out forwards;
 	animation-delay: calc(0.2s * var(--i));
 }
+section .container
+{
+	display: flex;
+	width: calc(100% - 200px);
+}
 .footer
 {
 	bottom: 0;
@@ -199,6 +204,12 @@ section header .toggle.active
 	    display: inline-block;
 	    font-weight: 600;
 	    text-transform: uppercase;
+	}
+    section .container
+	{
+		flex-direction: column;
+		flex-wrap: wrap;
+    	width: calc(100% - 30px);
 	}
 	.footer
 	{
