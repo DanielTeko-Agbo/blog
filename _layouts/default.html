@@ -15,10 +15,14 @@
         </nav>
     </header>
 
-    <main>
+    <main class="container">
         <h1 class="center">{{ page.title }}</h1>
     
         <div class="decent" style="font-size: 1.3em;">{{ content }}</div>
+
+        {% if site.sidebar %}
+            <p>This is a beautiful brand new day and I am very happy to see all of this.</p>
+        {% endif %}
     </main>
 
     <footer>
