@@ -12,7 +12,7 @@ body
 section
 {
 	padding: 100px;
-	background: #fff;
+	background: rgb(27, 27, 30);
 	height: 100vh;
 }
 section header
@@ -99,7 +99,8 @@ section header .toggle.active
 section .container
 {
 	display: flex;
-	width: calc(100% - 200px);
+    width: 100%;
+	padding: 20px 100px;
 }
 .footer
 {
