@@ -6,123 +6,41 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="shortcut icon" href="{{ '/assets/images/try.ico' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/bootstrap.css' | relative_url }}">
+    <!-- <link rel="stylesheet" href="{{ '/assets/css/bootstrap.css' | relative_url }}"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="container">
-    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="{{ '/' | relative_url }}">Home</a>
-                    <a class="nav-link" href="{{ '/about' | relative_url }}">About</a>
-                </div>
-            </div>
-        </div>
-    </nav> -->
-
-
-    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div>
-                <div class="navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a class="nav-link" href="{{ '/' | relative_url }}">Home</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="{{ '/about' | relative_url }}">About</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown link
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
     <div class="row">
-        {% if site.siderbar %}
-            <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12">
-                {{ content }}
-            </div>
+        <header>
+            <h1 class="logo"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+            <!-- <nav>
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="{{ '/about' | relative_url }}">About</a>
+            </nav> -->
+            <input type="checkbox" id="click">
+			<label for="click" class="menu-btn">
+				<i class="fas fa-bars"></i>
+			</label>
+		
+			<ul class="nav__links">
+				<li><a class="active" href="{{ '/' | relative_url }}">Home</a></li>
+				<li><a href="{{ '/about' | relative_url }}">About</a></li>
+				<!-- <li><a href="#">Element-2</a></li>
+				<li><a href="#">Element-3</a></li>
+				<li><a href="#">About</a></li> -->
+			</ul>
+       </header>
 
-            <!-- Sidebar Container -->
-            <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-12 col-xs-12">
-                <p>This is a beautiful brand new day and I am very happy to see all of this.</p>
-            </div>
-        {% else %}
+        <main>
+            <h1 class="center">{{ page.title }}</h1>
+        
+            <div class="decent" style="font-size: 1.3em;">{{ content }}</div>
+        </main>
 
-        {% endif %}
+        <footer>
+            <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+        </footer>
     </div>
-
-    <!-- <header>
-        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-        <nav>
-            <a href="{{ '/' | relative_url }}">Home</a>
-            <a href="{{ '/about' | relative_url }}">About</a>
-        </nav>
-    </header>
-
-    <main>
-        <h1 class="center">{{ page.title }}</h1>
-    
-        <div class="decent" style="font-size: 1.3em;">{{ content }}</div>
-
-        {% if site.sidebar %}
-            <p>This is a beautiful brand new day and I am very happy to see all of this.</p>
-        {% endif %}
-    </main>
-
-    <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
-    </footer> -->
 </body>
 </html>
