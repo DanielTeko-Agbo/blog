@@ -67,3 +67,11 @@ post_search: true
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
 edit_page_button: true
+
+
+paginate: 10
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Goals determine what you going to be!"
+sidebar-avatar: /assets/images/first_blog.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
