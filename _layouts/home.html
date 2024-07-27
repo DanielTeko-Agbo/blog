@@ -18,7 +18,7 @@ layout: default
                 <h3 class="post-heading">{{ post.title | escape }}</h3>
                 <span class="post-tags">{% for tag in post.tags %}{{tag}}  {% endfor %}</span>
                 <p class="post-excerpt">{{ post.excerpt | truncatewords: 30 | strip }}</p> 
-                <span class="post-author">By {{ post.author }} on  {%- assign date_format = "%b %-d, %Y" -%}{{ post.date | date: date_format }}</span>
+                <span class="post-author">By {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</span>
                 <hr/>
             </a>
         </div>
