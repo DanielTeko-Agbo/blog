@@ -23,25 +23,25 @@
 		</div>
 
         <div>
-            <ul>
+            <span class="next-blogs">
                 {% if page.previous.url %}
-                    <li>
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}">
-                            Previous<br>
-                            <span>{{page.previous.title}}</span>
-                        </a>
-                    </li>
+                    <a class="page-item" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}">
+						<div>
+							Previous<br>
+							{{page.previous.title}}
+						</div>
+					</a>
                 {% endif %}
 
                 {% if page.next.url %}
-                    <li>
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}">
-                            Next<br>
-                            <span>{{page.next.title}}</span>
-                        </a>
-                    </li>
+                    <a class="page-item" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}">
+						<div>
+							Next<br>
+							{{page.next.title}}
+						</div>
+					</a>
                 {% endif %}
-            </ul>
+            </span>
         </div>
         <!-- {% if page.previous.url %}
             <li>

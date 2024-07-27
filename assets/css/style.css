@@ -224,3 +224,19 @@ section header .toggle.active
 	    justify-content: center;
 	}
 }
+.next-blogs {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.page-item {
+	border: 1px solid;
+	padding: 2% 8%;
+	text-align: center;
+	box-shadow: 0 4px 21px -12px rgba(0, 0, 0, .66);
+}
+.page-item:hover {
+  box-shadow: 0 34px 32px -33px rgba(0, 0, 0, .18);
+  transform: translate(0px, -3px);
+  background-color: aqua;
+}
