@@ -20,14 +20,12 @@
 
 		<div class="container">
 			{{content}}
-		</div>
 
-        <div>
             <span class="next-blogs">
                 {% if page.previous.url %}
                     <a class="page-item" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}">
 						<div>
-							Previous<br>
+							<strong>PREVIOUS</strong><br>
 							{{page.previous.title}}
 						</div>
 					</a>
@@ -36,29 +34,13 @@
                 {% if page.next.url %}
                     <a class="page-item" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}">
 						<div>
-							Next<br>
+							<strong>NEXT</strong><br>
 							{{page.next.title}}
 						</div>
 					</a>
                 {% endif %}
             </span>
-        </div>
-        <!-- {% if page.previous.url %}
-            <li>
-                <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}">
-                Previous<br>
-                <span>{{page.previous.title}}</span>
-                </a>
-            </li>
-        {% endif %}
-        {% if page.next.url %}
-            <li>
-                <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}">
-                Next<br>
-                <span>{{page.next.title}}</span>
-                </a>
-            </li>
-        {% endif %} -->
+		</div>
 
 		<div class="footer">
 			<ul class="sci">
