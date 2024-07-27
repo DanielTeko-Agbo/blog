@@ -260,7 +260,6 @@ section header .toggle.active
 }
 .post-excerpt{
 	margin: 1% 0;
-	text-transform: capitalize;
 	font-style: italic;
 	color: rgb(68, 69, 70);
 }
