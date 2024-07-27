@@ -235,7 +235,7 @@ section header .toggle.active
 	padding: 2% 8%;
 	text-align: center;
 	box-shadow: 0 4px 21px -12px rgba(0, 0, 0, .66);
-    width: 65%;
+    width: 45%;
 }
 .page-item:hover {
   box-shadow: 0 34px 32px -33px rgba(0, 0, 0, .18);
