@@ -242,3 +242,41 @@ section header .toggle.active
   transform: translate(0px, -3px);
   background-color: aqua;
 }
+.post-item {
+	margin: 3% 0;
+	padding: 2% 1%;
+}
+.post-item:hover {
+  box-shadow: 0 34px 32px -33px rgba(0, 0, 0, .18);
+  transform: translate(0px, -3px);
+}
+.post-heading{
+	margin: 1% 0;
+	text-transform: capitalize;
+	color: rgb(68, 69, 70);
+}
+.post-heading:hover{
+	color: aqua;
+}
+.post-excerpt{
+	margin: 1% 0;
+	text-transform: capitalize;
+	font-style: italic;
+	color: rgb(68, 69, 70);
+}
+.post-excerpt:hover{
+	color: aqua;
+}
+.post-tags{
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: bold;
+	color: rgb(68, 69, 70);
+}
+.post-author{
+	color: rgb(68, 69, 70);
+	font-style: italic;
+}
+a{
+	text-decoration: none;
+}
