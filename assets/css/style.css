@@ -2,6 +2,7 @@
 {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
   	font-family: Gill Sans, sans-serif;
 }
 body
@@ -12,6 +13,7 @@ section
 {
 	padding: 100px;
 	background: #fff;
+	height: 100vh;
 }
 section header
 {
