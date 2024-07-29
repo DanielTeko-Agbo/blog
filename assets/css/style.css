@@ -4,6 +4,7 @@
 	padding: 0;
 	box-sizing: border-box;
   	font-family: Gill Sans, sans-serif;
+	background-color: rgb(27, 27, 30);
 }
 body
 {
@@ -245,6 +246,7 @@ section header .toggle.active
 .post-item {
 	margin: 3% 0;
 	padding: 2% 1%;
+	background-color: rgb(68, 69, 70);
 }
 .post-item:hover {
   box-shadow: 0 34px 32px -33px rgba(0, 0, 0, .18);
@@ -262,7 +264,6 @@ section header .toggle.active
 	margin: 1% 0;
 	font-style: italic;
     font-size: medium;
-	color: rgb(68, 69, 70);
 }
 .post-excerpt:hover{
 	color: aqua;
