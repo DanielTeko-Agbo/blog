@@ -262,7 +262,7 @@ section header .toggle.active
 	margin: 1% 0;
 	font-style: italic;
     font-size: medium;
-	color: #111;
+	color: rgb(68, 69, 70);
 }
 .post-excerpt:hover{
 	color: aqua;
@@ -277,6 +277,7 @@ section header .toggle.active
 .post-author{
 	color: rgb(68, 69, 70);
 	font-style: italic;
+	font-size: medium;
 }
 a{
 	text-decoration: none;
