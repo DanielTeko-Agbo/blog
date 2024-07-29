@@ -4,7 +4,6 @@
 	padding: 0;
 	box-sizing: border-box;
   	font-family: Gill Sans, sans-serif;
-	background-color: rgb(27, 27, 30);
 }
 body
 {
@@ -241,7 +240,7 @@ section header .toggle.active
 .page-item:hover {
   box-shadow: 0 34px 32px -33px rgba(0, 0, 0, .18);
   transform: translate(0px, -3px);
-  background-color: aqua;
+  background-color: rgb(0, 115, 255);
 }
 .post-item {
 	margin: 3% 0;
@@ -258,15 +257,16 @@ section header .toggle.active
 	color: rgb(68, 69, 70);
 }
 .post-heading:hover{
-	color: aqua;
+	color: rgb(0, 115, 255);
 }
 .post-excerpt{
+	color: rgb(68, 69, 70);
 	margin: 1% 0;
 	font-style: italic;
-    font-size: medium;
+    font-size: small;
 }
 .post-excerpt:hover{
-	color: aqua;
+	color: rgb(0, 115, 255);
 }
 .post-tags{
 	text-transform: uppercase;
