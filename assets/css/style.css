@@ -258,7 +258,7 @@ section header .toggle.active
 .post-heading:hover{
 	color: rgb(0, 115, 255);
 }
-/* .post-excerpt{
+.post-excerpt{
 	color: rgb(68, 69, 70);
 	margin: 1% 0;
 	font-style: italic;
@@ -266,7 +266,7 @@ section header .toggle.active
 }
 .post-excerpt:hover{
 	color: rgb(0, 115, 255);
-} */
+}
 .post-tags{
 	text-transform: uppercase;
 	font-style: italic;
@@ -280,5 +280,10 @@ section header .toggle.active
 	font-size: medium;
 }
 a{
+	color: #0088FF;
 	text-decoration: none;
+}
+a:visited {
+	color: #0088FF;
+    text-decoration: none;
 }
